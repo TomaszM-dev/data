@@ -1,7 +1,12 @@
 export default function Home() {
-  const a = [1, 2, 3, 4];
+  const arr = [5, 7, 3, 0];
 
-  console.log(a);
+  arr.sort(compareNum);
+
+  function compareNum(first, second) {
+    return second - first;
+  }
+  console.log(arr);
 
   return <div>hello</div>;
 }
