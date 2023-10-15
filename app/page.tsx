@@ -1,12 +1,8 @@
 export default function Home() {
-  const arr = [5, 7, 3, 0];
-
-  arr.sort(compareNum);
-
-  function compareNum(first, second) {
-    return second - first;
+  function myFunction(a: any) {
+    const res = a.
   }
-  console.log(arr);
+  myFunction(['I', 'need', 'candy'])
 
   return <div>hello</div>;
 }
